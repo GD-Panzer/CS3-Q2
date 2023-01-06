@@ -1,0 +1,45 @@
+#icon {
+	float: left;
+}
+header {
+	border: 1px solid #000000;
+	background-color: rgba(245,222,179,.6);
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	float: left;
+	border: 2px solid #000000;
+}
+li > a:link {
+	text-decoration: none;
+	width: 180px;
+	background-color: rgba(245,222,179,.6);
+	display: block;
+	padding: 8px;
+}
+li > a:active {
+}
+li > a:hover {
+	background-color: #c19a6b;
+}
+li > a:visited {
+	color: #3b444b;
+}
+body {
+	background-image: url("../../../images/homebg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+article {
+	background-color: rgba(245,222,179,.6);
+	border: 1px solid #000000;
+	margin-top: 25px;
+}
+embed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

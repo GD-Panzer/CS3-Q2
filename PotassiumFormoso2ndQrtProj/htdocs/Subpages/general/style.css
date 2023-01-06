@@ -1,0 +1,48 @@
+#icon {
+	float: left;
+}
+header {
+	border: 1px solid #000000;
+	background-color: rgba(245,222,179,.6);
+}
+ul {
+	list-style-type: none;
+}
+li {
+	display: inline;
+	float: left;
+	border: 2px solid #000000;
+}
+li > a:link {
+	text-decoration: none;
+	width: 180px;
+	background-color: rgba(245,222,179,.6);
+	display: block;
+	padding: 8px;
+}
+li > a:active {
+}
+li > a:hover {
+	background-color: #c19a6b;
+}
+li > a:visited {
+	color: #3b444b;
+}
+#content {
+	background-color: rgba(245,222,179,.5);
+	border: 1px solid #000000;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+body {
+	background-image: url("../../../images/bggeneral.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p {
+	font-family: monospace, sans-serif;
+}
+#content p {
+	padding: 10px;
+}
