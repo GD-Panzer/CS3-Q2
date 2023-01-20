@@ -28,7 +28,7 @@ li > a:hover {
 li > a:visited {
 	color: #3b444b;
 }
-#content {
+article {
 	background-color: rgba(245,222,179,.5);
 	border: 1px solid #000000;
 	margin-top: 20px;
@@ -45,4 +45,32 @@ p {
 }
 #content p {
 	padding: 10px;
+}
+#twt:link {
+	position: absolute;
+	top: 420px;
+	left: 45%;
+	background: url('../../../images/sprite.png') no-repeat 0px 0px;
+	width: 50px;
+	height: 50px;
+}
+#twt:active {
+	
+}
+#twt:hover {
+	transform: translate(0px, 2px);
+}
+#yt:link {
+	position: absolute;
+	top: 420px;
+	left: 50%;
+	background: url('../../../images/sprite.png') no-repeat -50px 0px;
+	width: 50px;
+	height: 50px;
+}
+#yt:active {
+	
+}
+#yt:hover {
+	transform: translate(0px, 2px);
 }

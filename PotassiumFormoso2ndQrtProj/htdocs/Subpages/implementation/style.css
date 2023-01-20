@@ -43,3 +43,31 @@ embed {
 	margin-left: auto;
 	margin-right: auto;
 }
+#twt:link {
+	position: absolute;
+	top: 625px;
+	left: 45%;
+	background: url('../../../images/sprite.png') no-repeat 0px 0px;
+	width: 50px;
+	height: 50px;
+}
+#twt:active {
+	
+}
+#twt:hover {
+	transform: translate(0px, 2px);
+}
+#yt:link {
+	position: absolute;
+	top: 625px;
+	left: 50%;
+	background: url('../../../images/sprite.png') no-repeat -50px 0px;
+	width: 50px;
+	height: 50px;
+}
+#yt:active {
+	
+}
+#yt:hover {
+	transform: translate(0px, 2px);
+}
